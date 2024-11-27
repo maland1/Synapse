@@ -1,4 +1,4 @@
-package com.maland1.portfolio;
+package com.maland1.synapse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

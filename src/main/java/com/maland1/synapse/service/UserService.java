@@ -1,7 +1,7 @@
-package com.maland1.portfolio.service;
+package com.maland1.synapse.service;
 
-import com.maland1.portfolio.exception.UserNotFoundException;
-import com.maland1.portfolio.model.User;
+import com.maland1.synapse.exception.UserNotFoundException;
+import com.maland1.synapse.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

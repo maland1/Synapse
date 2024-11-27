@@ -1,7 +1,7 @@
-package com.maland1.portfolio.dto;
+package com.maland1.synapse.dto;
 
-import com.maland1.portfolio.enums.UserRole;
-import com.maland1.portfolio.model.User;
+import com.maland1.synapse.enums.UserRole;
+import com.maland1.synapse.model.User;
 import lombok.Getter;
 import lombok.Setter;
 

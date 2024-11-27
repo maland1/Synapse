@@ -1,6 +1,6 @@
-package com.maland1.portfolio.model;
+package com.maland1.synapse.model;
 
-import com.maland1.portfolio.enums.UserRole;
+import com.maland1.synapse.enums.UserRole;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

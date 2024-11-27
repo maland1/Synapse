@@ -1,4 +1,4 @@
-package com.maland1.portfolio.enums;
+package com.maland1.synapse.enums;
 
 public enum UserRole {
     ADMIN, USER

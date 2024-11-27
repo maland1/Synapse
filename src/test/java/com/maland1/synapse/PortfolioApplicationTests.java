@@ -1,4 +1,4 @@
-package com.maland1.portfolio;
+package com.maland1.synapse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

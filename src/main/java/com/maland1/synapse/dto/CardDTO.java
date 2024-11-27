@@ -1,6 +1,6 @@
-package com.maland1.portfolio.dto;
+package com.maland1.synapse.dto;
 
-import com.maland1.portfolio.model.Card;
+import com.maland1.synapse.model.Card;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,27 +26,27 @@ public class CardDTO
         this.rarity = getRarity();
         this.attribute = getAttribute();
         this.type = getType();
+        this.level = getLevel();
         this.attack = getAttack();
         this.defense = getDefense();
-        this.level = getLevel();
         this.description = getDescription();
         this.tcgReleases = getTcgReleases();
         this.ocgReleases = getOcgReleases();
     }
 
     public Card asCard() {
-        Card card = new Card();
-        card.setId(this.id);
-        card.setName(this.name);
-        card.setRarity(this.rarity);
-        card.setAttribute(this.attribute);
-        card.setType(this.type);
-        card.setAttack(this.attack);
-        card.setDefense(this.defense);
-        card.setLevel(this.level);
-        card.setDescription(this.description);
-        card.setTcgReleases(this.tcgReleases);
-        card.setOcgReleases(this.ocgReleases);
-        return card;
+        return Card.builder()
+            .id(this.id)
+            .name(this.name)
+            .rarity(this.rarity)
+            .attribute(this.attribute)
+            .type(this.type)
+            .level(this.level)
+            .attack(this.attack)
+            .defense(this.defense)
+            .description(this.description)
+            .tcgReleases(this.tcgReleases)
+            .ocgReleases(this.ocgReleases)
+            .build();
     }
 }

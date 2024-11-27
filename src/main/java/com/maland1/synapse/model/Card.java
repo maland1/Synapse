@@ -1,18 +1,17 @@
-package com.maland1.portfolio.model;
+package com.maland1.synapse.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 
 @Entity
-@Getter
-@Setter
-@ToString
+@Getter @Setter @Builder @ToString
 public class Card
 {
 
@@ -23,9 +22,9 @@ public class Card
     private String rarity;
     private String attribute;
     private String[] type;
+    private int level;
     private int attack;
     private int defense;
-    private int level;
     private String description;
     private String[] tcgReleases;
     private String[] ocgReleases;

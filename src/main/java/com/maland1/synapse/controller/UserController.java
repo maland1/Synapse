@@ -1,8 +1,8 @@
-package com.maland1.portfolio.controller;
+package com.maland1.synapse.controller;
 
-import com.maland1.portfolio.dto.UserDTO;
-import com.maland1.portfolio.exception.UserNotFoundException;
-import com.maland1.portfolio.service.UserService;
+import com.maland1.synapse.dto.UserDTO;
+import com.maland1.synapse.exception.UserNotFoundException;
+import com.maland1.synapse.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
